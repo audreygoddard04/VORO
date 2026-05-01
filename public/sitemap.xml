@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/menu</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/locations</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/promotions</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/membership</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/about</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/contact</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/app</loc>
+  </url>
+  <url>
+    <loc>https://voro-steakhouse.netlify.app/login</loc>
+  </url>
+</urlset>

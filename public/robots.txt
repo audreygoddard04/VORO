@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://voro-steakhouse.netlify.app/sitemap.xml
