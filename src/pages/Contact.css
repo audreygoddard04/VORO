@@ -1,0 +1,48 @@
+.contact-page__hero {
+  padding: 160px 0 80px;
+  background: linear-gradient(135deg, #0a0500, var(--black));
+  border-bottom: 1px solid var(--mid-gray);
+}
+
+.contact-page__hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 7rem);
+  letter-spacing: 0.03em;
+  line-height: 0.9;
+  margin-bottom: 16px;
+}
+
+.contact-page__hero p { opacity: 0.65; max-width: 600px; }
+
+.contact-page__body { padding: 60px 0 100px; }
+
+.contact-page__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 24px;
+}
+
+.contact-card,
+.contact-form {
+  background: var(--charcoal);
+  border: 1px solid var(--mid-gray);
+  padding: 28px;
+}
+
+.contact-card h2 {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.contact-card p { margin-bottom: 8px; opacity: 0.8; }
+.contact-card small { opacity: 0.5; }
+
+.contact-form textarea { resize: vertical; min-height: 120px; }
+.contact-form .btn-primary { width: 100%; }
+
+@media (max-width: 900px) {
+  .contact-page__grid { grid-template-columns: 1fr; }
+}

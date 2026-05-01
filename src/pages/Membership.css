@@ -1,0 +1,197 @@
+.membership__hero {
+  padding: 160px 0 80px;
+  background: linear-gradient(135deg, #0a0800, var(--black));
+  border-bottom: 1px solid var(--mid-gray);
+}
+.membership__hero-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: center;
+}
+.membership__hero-copy {
+  max-width: 560px;
+}
+.membership__logo {
+  display: block;
+  width: min(560px, 46vw);
+  margin: 0;
+  transform: translateY(-20px);
+}
+.membership__hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 12vw, 10rem);
+  letter-spacing: 0.03em;
+  line-height: 0.9;
+  margin-bottom: 24px;
+  color: var(--gold);
+}
+.membership__hero p { opacity: 0.65; max-width: 480px; font-size: 1.1rem; line-height: 1.7; }
+
+.section-h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  letter-spacing: 0.03em;
+  line-height: 1;
+  margin-bottom: 48px;
+}
+
+.dash-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.dash-card {
+  background: var(--charcoal);
+  border: 1px solid var(--mid-gray);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dash-card--main { grid-row: span 1; }
+.dash-card__tier {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.dash-card__name {
+  font-family: var(--font-condensed);
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.dash-card__points {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+.dash-card__pts-label {
+  font-size: 0.75rem;
+  opacity: 0.4;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.dash-card__progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  opacity: 0.5;
+  margin-top: 16px;
+}
+.dash-card__bar {
+  height: 4px;
+  background: var(--mid-gray);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.dash-card__bar div { height: 100%; background: var(--gold); border-radius: 2px; transition: width 1s ease; }
+.dash-card__stat { font-family: var(--font-display); font-size: 2.5rem; color: var(--cream); margin-top: 8px; }
+.dash-card__stat-label { font-size: 0.75rem; opacity: 0.45; text-transform: uppercase; letter-spacing: 0.08em; }
+
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.tier-card {
+  background: var(--charcoal);
+  border: 1px solid var(--mid-gray);
+  border-top: 4px solid var(--tc);
+  padding: 32px 24px;
+  transition: transform 0.2s;
+}
+.tier-card:hover { transform: translateY(-4px); }
+.tier-card__name {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--tc);
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.tier-card__pts {
+  font-family: var(--font-condensed);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  opacity: 0.4;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--mid-gray);
+}
+.tier-card__perks { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.tier-card__perks li { font-size: 0.88rem; opacity: 0.7; }
+
+.redeem-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.redeem-card {
+  background: var(--charcoal);
+  border: 1px solid var(--mid-gray);
+  padding: 24px 20px;
+  text-align: center;
+  transition: border-color 0.2s;
+}
+.redeem-card:not(.locked):hover { border-color: var(--gold); }
+.redeem-card.locked { opacity: 0.5; }
+.redeem-card__icon { font-size: 2rem; margin-bottom: 12px; }
+.redeem-card__value {
+  font-family: var(--font-condensed);
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.redeem-card__pts {
+  font-family: var(--font-condensed);
+  font-size: 0.8rem;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.redeem-card__lock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  opacity: 0.5;
+}
+
+.membership__cta {
+  padding: 100px 0;
+  background: var(--charcoal);
+  border-top: 1px solid var(--mid-gray);
+}
+.membership__cta h2 { font-family: var(--font-display); font-size: 3.5rem; letter-spacing: 0.04em; margin-bottom: 12px; }
+.membership__cta p { opacity: 0.6; }
+
+@media (max-width: 1100px) {
+  .membership__hero-content {
+    grid-template-columns: 1fr;
+  }
+  .membership__logo {
+    width: min(520px, 86vw);
+    transform: translateY(-8px);
+  }
+  .tiers-grid { grid-template-columns: repeat(2, 1fr); }
+  .redeem-grid { grid-template-columns: repeat(3, 1fr); }
+  .dash-grid { grid-template-columns: 1fr 1fr 1fr; }
+}
+@media (max-width: 700px) {
+  .tiers-grid { grid-template-columns: 1fr; }
+  .redeem-grid { grid-template-columns: repeat(2, 1fr); }
+  .dash-grid { grid-template-columns: 1fr 1fr; }
+}
