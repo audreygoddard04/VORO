@@ -10,7 +10,7 @@ const menuHighlights = [
 ]
 
 const stats = [
-  { num: '52g', label: 'Avg Protein Per Meal' },
+  { num: '50g', label: 'Avg Protein Per Meal' },
   { num: '0', label: 'Artificial Additives' },
   { num: '100%', label: 'Real Ingredients' },
   { num: '1', label: 'Mission: Fuel Greatness' },
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <div className="hero__content container">
           <div className="hero__eyebrow">
-            <span className="section-label">Performance Fast Food — Dallas, TX</span>
+            <span className="section-label">Performance Fast Food | Dallas, TX</span>
           </div>
           <h1 className="hero__title">
             FUEL<br />
@@ -147,7 +147,7 @@ export default function Home() {
           <div className="member-cta__text">
             <span className="section-label">VORO Elite</span>
             <h2>EARN WHILE YOU EAT</h2>
-            <p>Join our loyalty program. Earn points on every order, unlock exclusive drops, early access, and member-only deals. Free to join — forever.</p>
+            <p>Join our loyalty program. Earn points on every order, unlock exclusive drops, early access, and member-only deals. Free to join.</p>
             <div className="member-cta__tiers">
               <div className="tier-chip tier-chip--bronze">Bronze</div>
               <div className="tier-chip tier-chip--silver">Silver</div>

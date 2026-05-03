@@ -4,7 +4,7 @@ import './AppPage.css'
 
 const features = [
   { icon: <ShoppingBag />, title: 'Order Ahead', desc: 'Pre-order your meal and skip the line. Ready when you arrive.' },
-  { icon: <Star />, title: 'Rewards Hub', desc: 'Track your points, redeem rewards, and climb tiers — all in one place.' },
+  { icon: <Star />, title: 'Rewards Hub', desc: 'Track your points, redeem rewards, and climb tiers, all in one place.' },
   { icon: <BarChart2 />, title: 'Macro Tracker', desc: 'Every VORO order auto-logs your protein, carbs, fat, and calories.' },
   { icon: <Bell />, title: 'Exclusive Deals', desc: 'App-only offers, flash sales, and early access to new menu drops.' },
   { icon: <MapPin />, title: 'Find Locations', desc: 'Real-time hours, wait times, and directions to every VORO.' },

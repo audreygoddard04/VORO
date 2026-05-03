@@ -116,24 +116,6 @@
 }
 .team-card__info p { opacity: 0.6; font-size: 0.92rem; line-height: 1.7; }
 
-.press-grid {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.press-chip {
-  font-family: var(--font-condensed);
-  font-weight: 700;
-  font-size: 1.1rem;
-  letter-spacing: 0.08em;
-  color: var(--cream);
-  opacity: 0.3;
-  border: 1px solid var(--mid-gray);
-  padding: 12px 28px;
-  transition: opacity 0.2s, border-color 0.2s;
-}
-.press-chip:hover { opacity: 0.8; border-color: var(--gold); }
-
 @media (max-width: 900px) {
   .about-story__inner { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: repeat(2, 1fr); }

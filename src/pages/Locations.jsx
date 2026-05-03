@@ -40,7 +40,7 @@ export default function Locations() {
         <div className="coming-soon-section">
           <span className="section-label">Expanding Soon</span>
           <h2>MORE CITIES. MORE FUEL.</h2>
-          <p>We're growing fast. Want VORO in your city? Let us know.</p>
+          <p>Want VORO in your city? Let us know.</p>
           <div className="city-grid">
             {['Austin, TX','Houston, TX','Phoenix, AZ','Denver, CO','Nashville, TN','Chicago, IL','New York, NY','Los Angeles, CA'].map(c => (
               <div key={c} className="city-chip">{c}</div>

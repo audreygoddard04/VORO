@@ -58,7 +58,7 @@ export default function Footer() {
       </div>
       <div className="footer__bottom container">
         <span>© 2026 VORO Performance Foods. All rights reserved.</span>
-        <span>Dallas, TX — Launching Spring 2026</span>
+        <span>Dallas, TX | Launching Spring 2026</span>
       </div>
     </footer>
   )

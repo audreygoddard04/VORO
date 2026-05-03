@@ -71,18 +71,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <section className="about-press section">
-        <div className="container">
-          <span className="section-label">Media</span>
-          <h2 className="section-h2">IN THE PRESS</h2>
-          <div className="press-grid">
-            {['Forbes','Men\'s Health','Business Insider','TechCrunch','Entrepreneur'].map(p => (
-              <div key={p} className="press-chip">{p}</div>
-            ))}
-          </div>
-        </div>
-      </section>
     </main>
   )
 }
